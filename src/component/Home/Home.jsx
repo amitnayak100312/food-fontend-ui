@@ -20,6 +20,12 @@ const Home = () => {
             </p>
             <MultitemCarousel />
     </section>
+
+    <section>
+      <h1>
+        Order for our 
+      </h1>
+    </section>
     </div>
   );
 }
