@@ -5,7 +5,7 @@ const RestaurantCard = () => {
     <Card className='m-5 w-[18rem]'>
             <div className={`${true?' cursor-pointer':"cursor-not-allowed"}relative`}>
                     <img 
-                    className=''
+                    className='w-full h-[10rem] object-cover rounded-t-md'
                     src="https://via.placeholder.com/150" alt="" />
 
             </div>
