@@ -4,8 +4,10 @@ const RestaurantCard = () => {
   return (
     <Card className='m-5 w-[18rem]'>
             <div className={`${true?' cursor-pointer':"cursor-not-allowed"}relative`}>
-                    <img src="https://via.placeholder.com/150" alt="" />
-                    
+                    <img 
+                    className=''
+                    src="https://via.placeholder.com/150" alt="" />
+
             </div>
           </Card>
   )
