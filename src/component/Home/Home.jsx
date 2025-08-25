@@ -22,7 +22,7 @@ const Home = () => {
     </section>
 
     <section className='p-10 lg:py-10 lg:px-20'>
-      <h1 className='text-2xl lg:text-3xl font-semibold text-center py-10'>
+      <h1 className='text-3xl font-semibold py-3 text-center'>
         Order From Our Handpicked Favorites
       </h1>
     </section>
