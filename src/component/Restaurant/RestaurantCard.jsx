@@ -10,6 +10,7 @@ const RestaurantCard = () => {
                 <Chip 
                 size="small"
                 className="absolute top-2 left-2"
+                color={true}
                 />
             </div>
           </Card>
