@@ -23,7 +23,7 @@ const Home = () => {
 
     <section>
       <h1>
-        Order for our 
+        Order from Our Handpicked Fovr
       </h1>
     </section>
     </div>
