@@ -21,7 +21,7 @@ const Home = () => {
             <MultitemCarousel />
     </section>
 
-    <section>
+    <section className='px-5 lg:px-20'>
       <h1 className='text-2xl font-semibold text-gray-400 py-3'>
         Order From Our Handpicked Favorites
       </h1>
