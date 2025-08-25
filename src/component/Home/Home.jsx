@@ -22,8 +22,8 @@ const Home = () => {
     </section>
 
     <section>
-      <h1>
-        Order from Our Handpicked Fovr
+      <h1 className='text-2xl font-semibold text-gray-400 py-3'>
+        Order From Our Handpicked Favorites
       </h1>
     </section>
     </div>
