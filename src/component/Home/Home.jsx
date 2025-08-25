@@ -28,7 +28,7 @@ const Home = () => {
       </h1>
 
       <div>
-          <Card className='m-5 '></Card>
+          
       </div>
     </section>
     </div>
