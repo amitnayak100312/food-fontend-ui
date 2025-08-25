@@ -2,9 +2,9 @@ import React from 'react'
 
 const RestaurantCard = () => {
   return (
-    <div>
-      
-    </div>
+    <Card className='m-5 w-[18rem]'>
+            <div className='cu'></div>
+          </Card>
   )
 }
 
