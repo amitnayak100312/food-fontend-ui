@@ -9,7 +9,7 @@ const RestaurantCard = () => {
                     src="https://via.placeholder.com/150" alt="" />
                 <Chip 
                 size="small"
-                className="a"
+                className="absolute top-2 left-2"
                 />
             </div>
           </Card>
