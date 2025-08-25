@@ -7,7 +7,9 @@ const RestaurantCard = () => {
                     <img 
                     className='w-full h-[10rem] object-cover rounded-t-md'
                     src="https://via.placeholder.com/150" alt="" />
-
+                <Chip>
+                    
+                </Chip>
             </div>
           </Card>
   )
