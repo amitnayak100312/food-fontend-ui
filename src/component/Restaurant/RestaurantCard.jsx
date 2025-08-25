@@ -18,7 +18,7 @@ const RestaurantCard = () => {
             <div className='p-4 textPart lg:flex w-full justify-between'>
                 <div className='space-y-1'>
                     <p className='text-sm'>
-                        Cra
+                        Cravring 
                     </p>
                 </div>
             </div>
