@@ -14,6 +14,10 @@ const RestaurantCard = () => {
                 label={true?"Open Now":"Closed"}
                 />
             </div>
+
+            <div className='p-4 textPa'>
+
+            </div>
           </Card>
   )
 }
