@@ -27,7 +27,7 @@ const Home = () => {
       </h1>
 
       <div>
-        
+          <Car
       </div>
     </section>
     </div>
