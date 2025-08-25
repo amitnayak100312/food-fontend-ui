@@ -25,6 +25,10 @@ const Home = () => {
       <h1 className='text-3xl font-semibold py-3 text-center'>
         Order From Our Handpicked Favorites
       </h1>
+
+      <div>
+        
+      </div>
     </section>
     </div>
   );
