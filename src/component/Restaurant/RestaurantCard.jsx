@@ -10,7 +10,7 @@ const RestaurantCard = () => {
                     <img 
                     className='w-full h-[10rem] object-cover rounded-t-md'
                     src="https://res.cloudinary.com/wejgrnjqf/image/upload/c_limit,w_3840/f_auto/q_auto/v1/
-                    74e12e14-3922-49c2-8c61-842b9950dce2?_a=BAVAZGE70" alt="" />
+                    74e12e14-3922-49c2-8c61-842b9950dce2?_a=BAVAZGE70" alt="Restaurant Poster" />
                 <Chip 
                 size="small"
                 className="absolute top-2 left-2"
