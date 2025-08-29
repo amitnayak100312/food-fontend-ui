@@ -24,7 +24,7 @@ const RestaurantCard = () => {
                 </div>
 
                 <div>
-                  Icon
+                  IconButton
                 </div>
 
             </div>
