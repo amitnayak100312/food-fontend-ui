@@ -2,6 +2,7 @@ import React from 'react';
 import "./Home.css";
 import MultitemCarousel from './MultitemCarousel';
 import { Card } from '@mui/material';
+import RestaurantCard from '../Restaurant/RestaurantCard';
 
 
 const restaurant=[1,1,1,1,1,1,1,1]
