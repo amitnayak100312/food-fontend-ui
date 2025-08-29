@@ -33,7 +33,7 @@ const Home = () => {
         Order From Our Handpicked Favorites
       </h1>
 
-      <div>
+      <div className='flex flex-wr'>
           {
             restaurant.map((item)=><RestaurantCard/>
             )
