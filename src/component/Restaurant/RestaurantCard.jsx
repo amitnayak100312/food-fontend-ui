@@ -17,7 +17,7 @@ const RestaurantCard = () => {
 
             <div className='p-4 textPart lg:flex w-full justify-between'>
                 <div className='space-y-1'>
-                  <p>Indian Fast Food</p>
+                  <p className='font-semibold'>Indian Fast Food</p>
                     <p className='text-sm'>
                         Craving it all? Dive into our global flavors and satisfy your taste buds with a variety of cuisines from around the world.
                     </p>
