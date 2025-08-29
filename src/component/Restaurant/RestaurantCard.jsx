@@ -24,7 +24,9 @@ const RestaurantCard = () => {
                 </div>
 
                 <div>
-                  IconButton
+                  <IconButton>
+                    {true ?}
+                  </IconButton>
                 </div>
 
             </div>
