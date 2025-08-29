@@ -2,6 +2,11 @@ import React from 'react';
 import "./Home.css";
 import MultitemCarousel from './MultitemCarousel';
 import { Card } from '@mui/material';
+
+
+const restaurant=[1,1,1,1,1,]
+
+
 const Home = () => {
   return (
     // The banner itself is the main container and positioning context.
@@ -29,7 +34,7 @@ const Home = () => {
 
       <div>
           {
-            
+
           }
       </div>
     </section>
