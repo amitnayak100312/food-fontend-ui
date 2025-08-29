@@ -15,16 +15,16 @@ const RestaurantCard = () => {
 
             <div className='p-4 textPart lg:flex w-full justify-between'>
                 <div className='space-y-1'>
+                  <p className='font-semibold text-lg'>Indian Fast Food</p>
+                    <p className='text-sm'>
+                        Craving it all? Dive into our global flavors and satisfy your taste buds with a variety of cuisines from around the world.
+                    </p>
                 <Chip 
                 size="small"
                 className="absolute top-2 left-2"
                 color={true?"success":"error"}
                 label={true?"Open Now":"Closed"}
                 />
-                  <p className='font-semibold text-lg'>Indian Fast Food</p>
-                    <p className='text-sm'>
-                        Craving it all? Dive into our global flavors and satisfy your taste buds with a variety of cuisines from around the world.
-                    </p>
                 </div>
 
                 <div>
