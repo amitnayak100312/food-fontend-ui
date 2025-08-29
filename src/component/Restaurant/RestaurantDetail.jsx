@@ -12,8 +12,7 @@ const RestaurantDetail = () => {
             <Grid container spacing={2} >
                 <Grid item xs={12}>
                     <img className='w-full h-[40vh] obkect-cover'
-                    src='http://res.cloudinary.com/dcpesbd8q/image/upload/v1707802815/yx3xq93xzfbqhtudigv2.jpg'/>
-                </Grid>
+                    src='https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/335581096/original/7462bc5f9c9411f8e01ba3bf57f2115c69acc68d/create-high-quality-4k-renders-for-your-restaurant-and-cafe-e48e.jpg'/>  </Grid>
 
 
             </Grid>
