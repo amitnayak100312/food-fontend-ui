@@ -33,7 +33,7 @@ const Home = () => {
         Order From Our Handpicked Favorites
       </h1>
 
-      <div className='flex flex-wr'>
+      <div className='flex flex-wrap items-center ju'>
           {
             restaurant.map((item)=><RestaurantCard/>
             )
