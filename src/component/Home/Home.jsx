@@ -4,7 +4,7 @@ import MultitemCarousel from './MultitemCarousel';
 import { Card } from '@mui/material';
 
 
-const restaurant=[1,1,1,1,1,1,1]
+const restaurant=[1,1,1,1,1,1,1,1]
 
 
 const Home = () => {
@@ -34,7 +34,9 @@ const Home = () => {
 
       <div>
           {
-
+            restaurant.map((item, index) => (
+              <RestaurantCard key={index} />
+            ))
           }
       </div>
     </section>
