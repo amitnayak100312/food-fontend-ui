@@ -4,7 +4,7 @@ import React from 'react';
 const RestaurantDetail = () => {
   return (
     <div className='px-5 py-5 lg:px-20'>
-
+        <h3 className='text-2xl font-semibold'>Indian Fast Food</h3>
       {/* Grid container for all images */}
       <div className='mt-5'>
         <Grid container spacing={1}>
