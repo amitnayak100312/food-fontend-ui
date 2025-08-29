@@ -4,7 +4,7 @@ import {Navbar} from './component/Navbar/Navbar';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { darkTheme } from './Theme/DarkTheam';
 import Home from './component/Home/Home';
-import RestaurantDetail from './component/RestaurantDetail/RestaurantDetail';
+import RestaurantDetail from './component/Restaurant/RestaurantDetail';
 function App() {
   return (
     <>
