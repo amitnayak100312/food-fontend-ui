@@ -18,7 +18,7 @@ const RestaurantCard = () => {
             <div className='p-4 textPart lg:flex w-full justify-between'>
                 <div className='space-y-1'>
                     <p className='text-sm'>
-                        Cravring 
+                        Cravring it all? Dive into our global fa
                     </p>
                 </div>
             </div>
