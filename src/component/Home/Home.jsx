@@ -28,7 +28,9 @@ const Home = () => {
       </h1>
 
       <div>
-          
+          {
+            
+          }
       </div>
     </section>
     </div>
