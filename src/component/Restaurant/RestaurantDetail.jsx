@@ -10,6 +10,9 @@ const RestaurantDetail = () => {
 
           <div>
             <Grid container spacing={2} className='mt-5'>
+                <Grid item xs={12}>
+                    <img src="" alt="" />
+                </Grid>
 
 
             </Grid>
