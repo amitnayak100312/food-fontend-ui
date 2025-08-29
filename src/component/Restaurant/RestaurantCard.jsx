@@ -16,9 +16,8 @@ const RestaurantCard = () => {
        
         <Chip
           size="small"
-          label={true ? "open" : "closed"}
-          color="success"
-          // These classes position the chip
+          color={true ? "success" : "error"}
+          label={true ? "Open Now" : "Closed"}
           className="absolute top-2 left-2"
         />
       </div>
