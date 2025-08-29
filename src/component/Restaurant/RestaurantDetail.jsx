@@ -4,7 +4,6 @@ import React from 'react';
 const RestaurantDetail = () => {
   return (
     <div className='px-5 py-5 lg:px-20'>
-      </section>
 
       {/* Grid container for all images */}
       <div className='mt-5'>
@@ -43,14 +42,15 @@ const RestaurantDetail = () => {
             />
           </Grid>
 
+        </Grid>
+      </div>
       <section>
         <h3 className='text-2xl font-semibold'>Indian Fast Food</h3>
         <p className='text-gray-500'>Cuisine: Indian</p>
         <p className='mt-2 text-gray-500'>
           A delightful place to enjoy authentic Indian cuisine.
         </p>
-        </Grid>
-      </div>
+      </section>
     </div>
   );
 };
