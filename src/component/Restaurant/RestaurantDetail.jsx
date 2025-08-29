@@ -9,7 +9,7 @@ const RestaurantDetail = () => {
           <p className='mt-2'>Description: A delightful place to enjoy authentic Indian cuisine.</p>
 
           <div>
-            <Grid >
+            <Grid container spacing={2} className='mt-5'>
 
 
             </Grid>
