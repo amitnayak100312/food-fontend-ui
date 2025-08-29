@@ -6,14 +6,14 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 const RestaurantCard = () => {
   return (
     <Card className='w-[18rem]'>
-      {/* This parent div needs the 'relative' class */}
+      
       <div className="relative">
         <img
           className='w-full h-[10rem] object-cover rounded-t-md'
           src="https://res.cloudinary.com/wejgrnjqf/image/upload/c_limit,w_3840/f_auto/q_auto/v1/74e12e14-3922-49c2-8c61-842b9950dce2?_a=BAVAZGE70"
           alt="Restaurant Poster"
         />
-        {/* The Chip is positioned absolutely within the relative parent */}
+       
         <Chip
           size="small"
           label={true ? "open" : "closed"}
