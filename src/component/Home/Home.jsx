@@ -35,8 +35,8 @@ const Home = () => {
 
       <div>
           {
-            restaurant.map((item, index) => (
-              <RestaurantCard key={index} />
+            restaurant.map((item)=> (
+ <RestaurantCard key={index} />
             ))
           }
       </div>
