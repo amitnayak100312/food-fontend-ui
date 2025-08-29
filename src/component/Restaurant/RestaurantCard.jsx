@@ -28,7 +28,7 @@ const RestaurantCard = () => {
 
                 <div>
                   <IconButton>
-                    {true ?}
+                    {true ? <FavoriteIcon /> : <FavoriteBorderIcon />}
                   </IconButton>
                 </div>
 
