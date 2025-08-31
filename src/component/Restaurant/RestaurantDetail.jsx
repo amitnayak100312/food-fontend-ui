@@ -44,26 +44,26 @@ const RestaurantDetail = () => {
                             Version 1.0 (Updated June 5, 2021)
                         </p>
 
-                        <p className="mt-6 text-base text-gray-700">
+                        <p className="mt-6 text-base text-gray-300">
                             The Application UI Icon Pack comes with over 200 icons in 3 styles: outline, filled, and branded. This playful icon pack is tailored for complex application user interfaces with a friendly and legible look.
                         </p>
 
                         
 
                         <div className="mt-10">
-                            <h2 className="text-lg font-semibold text-gray-900">Highlights</h2>
+                            <h2 className="text-lg font-semibold">Highlights</h2>
                             <ul className="mt-4 space-y-3">
                                 <li className="flex items-center gap-3">
                                     <CheckIcon />
-                                    <span className="text-gray-700">200+ SVG icons in 3 unique styles</span>
+                                    <span className="text-gray-300">200+ SVG icons in 3 unique styles</span>
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <CheckIcon />
-                                    <span className="text-gray-700">Compatible with Figma, Sketch, and Adobe XD</span>
+                                    <span className="text-gray-300">Compatible with Figma, Sketch, and Adobe XD</span>
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <CheckIcon />
-                                    <span className="text-gray-700">Drawn on 24 x 24 pixel grid</span>
+                                    <span className="text-gray-300">Drawn on 24 x 24 pixel grid</span>
                                 </li>
                             </ul>
                         </div>
