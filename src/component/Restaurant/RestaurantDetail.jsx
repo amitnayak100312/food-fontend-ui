@@ -13,6 +13,13 @@ const CheckIcon = () => (
     </svg>
 );
 
+const productImages = [
+    { id: 1, url: 'https://i.imgur.com/vT2t2I0.png', alt: 'Tote bag front view' },
+    { id: 2, url: 'https://i.imgur.com/gB4g7g4.png', alt: 'Tote bag front view slightly angled' },
+    { id: 3, url: 'https://i.imgur.com/rL45eUi.png', alt: 'Tote bag back view' },
+    { id: 4, url: 'https://i.imgur.com/nophYyA.png', alt: 'Tote bag top open view' },
+];
+
 
 const RestaurantDetail = () => {
     return (
@@ -21,15 +28,35 @@ const RestaurantDetail = () => {
                 <div className="flex flex-col lg:flex-row gap-12">
                     
                     {/* Left Column: Product Image */}
-                    <div className="lg:w-1/2">
-                        <div className="bg-gradient-to-br rounded-2xl p-8 shadow-lg">
-                          <img
-                        className='w-full h-[60vh] object-cover rounded-md'
-                        src='https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                        alt='Restaurant Main'
-                    />
-                        </div>
-                    </div>
+            const [mainImage, setMainImage] = useState(productImages[0]);
+
+    return (
+        <div className="lg:w-1/2">
+            {/* Main Image Display */}
+            <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg border-2 border-gray-200">
+                <img
+                    src={mainImage.url}
+                    alt={mainImage.alt}
+                    className="h-full w-full object-cover object-center"
+                />
+            </div>
+
+            {/* Thumbnail Gallery */}
+            <div className="mt-4 grid grid-cols-4 gap-4">
+                {productImages.map((image) => (
+                    <button
+                        key={image.id}
+                        onClick={() => setMainImage(image)}
+                        // Apply a ring/border if the thumbnail is the currently selected one
+                        className={`relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 
+                        ${mainImage.id === image.id ? 'ring-2 ring-indigo-500 ring-offset-2' : 'ring-1 ring-gray-200'}`}
+                    >
+                        <span className="sr-only">{image.alt}</span>
+                        <img src={image.url} alt={image.alt} className="h-full w-full object-cover object-center rounded-md" />
+                    </button>
+                ))}
+            </div>
+        </div>
 
                     {/* Right Column: Product Details */}
                     <div className="lg:w-1/2">
