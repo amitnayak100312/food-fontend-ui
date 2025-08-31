@@ -41,10 +41,10 @@ const ProductPage = () => {
                     {/* Right Column: Product Details */}
                     <div className="lg:w-1/2">
                         
-                        <h1 className="mt-4 text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+                        <h1 className="mt-4 text-3xl sm:text-4xl font-extrabold tracking-tight">
                             Application UI Icon Pack
                         </h1>
-                        <div className="flex items-center m">
+                        <div className="flex items-center mt-5">
                             {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
                         </div>
                         <p className="mt-2 text-sm text-gray-500">
