@@ -4,44 +4,7 @@ import React from 'react';
 const RestaurantDetail = () => {
     return (
         <div className='px-5 py-5 lg:px-20'>
-            {/* SECTION FOR RESTAURANT INFO
-
-            {/* IMAGE GALLERY GRID */}
-            <Grid container spacing={2}>
-                {/* Main Image (Full Width) */}
-                <Grid item xs={12}>
-                    <img
-                        className='w-full h-[40vh] object-cover rounded-md'
-                        src='https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                        alt='Restaurant Main'
-                    />
-                </Grid>
-
-                {/* Three Smaller Images (In a Row on Large Screens) */}
-                <Grid item xs={12} lg={4}>
-                    <img
-                        className='w-full h-[40vh] object-cover rounded-md'
-                        src='https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/335581096/original/7462bc5f9c9411f8e01ba3bf57f2115c69acc68d/create-high-quality-4k-renders-for-your-restaurant-and-cafe-e48e.jpg'
-                        alt='Restaurant Side 1'
-                    />
-                </Grid>
-
-                <Grid item xs={12} lg={4}>
-                    <img
-                        className='w-full h-[40vh] object-cover rounded-md'
-                        src='https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                        alt='Restaurant Side 2'
-                    />
-                </Grid>
-
-                <Grid item xs={12} lg={4}>
-                    <img
-                        className='w-full h-[40vh] object-cover rounded-md'
-                        src='https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                        alt='Restaurant Side 3'
-                    />
-                </Grid>
-            </Grid> */}
+          
            
 
             <div className="lg:w-1/2">

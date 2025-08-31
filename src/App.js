@@ -15,10 +15,10 @@ function App() {
         <CssBaseline />
         <Navbar />
         {/* <Home /> */}
-        {/* <RestaurantDetail />
-         */}
+        <RestaurantDetail />
+        
 
-         <ProductPage />
+         {/* <ProductPage /> */}
       </ThemeProvider>
     </>
   );
