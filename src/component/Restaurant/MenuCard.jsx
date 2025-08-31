@@ -16,8 +16,9 @@ const MenuCard = () => {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <div className='lgflex items-center justify-betwe'>
-
+          <div className='lg:flex items-center justify-between'>
+            <Typography component="span">Accordion 2</Typography>
+            <ArrowDownwardIcon />
           </div>
         </AccordionSummary>
         <AccordionDetails>
