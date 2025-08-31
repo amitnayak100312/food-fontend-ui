@@ -1,4 +1,4 @@
-import React from 'react'
+        import React from 'react'
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -25,6 +25,10 @@ const MenuCard = () => {
                <p className='font-semibold text-xl'>
                 Burger with a juicy beef patty, fresh lettuce, tomato, and cheese.
                </p>
+
+            <p>
+               ₹499
+            </p>
              </div>
           </div>
         </AccordionSummary>
