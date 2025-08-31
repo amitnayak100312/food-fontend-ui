@@ -39,7 +39,7 @@ const category = [
 ];
 
 //Menu Cards
-const menu= [1,1,1];
+const menu= [1,1,1,1,1];
 
 //Food Type Selection
 const foodTypes = [
