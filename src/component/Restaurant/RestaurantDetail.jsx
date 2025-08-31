@@ -21,6 +21,7 @@ const productImages = [
 ];
 
 
+const [mainImage, setMainImage] = useState(productImages[0]);
 const RestaurantDetail = () => {
     return (
         <div className="font-sans">
@@ -28,9 +29,8 @@ const RestaurantDetail = () => {
                 <div className="flex flex-col lg:flex-row gap-12">
                     
                     {/* Left Column: Product Image */}
-            const [mainImage, setMainImage] = useState(productImages[0]);
 
-    return (
+  
         <div className="lg:w-1/2">
             {/* Main Image Display */}
             <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg border-2 border-gray-200">
