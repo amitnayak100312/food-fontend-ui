@@ -188,7 +188,7 @@ const RestaurantDetailPage = () => {
                                         onChange={handlerFilter}
                                         name='food_type'
                                     >
-                                        {foodTypes.map((type) => (
+                                        {category.map((type) => (
                                             <FormControlLabel
                                                 key={type.value}
                                                 value={type.value}
