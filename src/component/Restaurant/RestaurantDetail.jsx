@@ -160,6 +160,16 @@ const RestaurantDetailPage = () => {
                                                 key={type.value}
                                                 control={<Radio />}
                                                 label={type.label}
+                                                value={type.value}
+                                            />
+                                        ))}
+                                    </RadioGroup>
+                                </FormControl>
+                              </div>
+                            </div>
+                            </div>
+                    </section>
+        </div>
                                                 
                                             />
                                         ))}
