@@ -13,15 +13,11 @@ const ingredients=[
   },
   {
     category:"Proteins",
-    ingredients: "Ground Beef"
-  },
-  {
-    category:"Proteins",
-    ingredients:"Bacon Strips"
+    ingredients:["Ground Beef","Bacon Strips"]
   },
   {
     category:"Bread",
-    ingredients:"Hamburger Buns"
+    ingredients:["Hamburger Buns"]
   }
 ]
 
