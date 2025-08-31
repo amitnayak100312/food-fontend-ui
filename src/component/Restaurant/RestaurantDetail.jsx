@@ -39,11 +39,7 @@ const category = [
 
 //Menu Cards
 const menuItems = [
-    { id: 1, name: "Margherita Pizza", category: "Pizza", price: 12.99 },
-    { id: 2, name: "Pasta Carbonara", category: "Pasta", price: 14.99 },
-    { id: 3, name: "Caesar Salad", category: "Salad", price: 10.99 },
-    { id: 4, name: "Chocolate Lava Cake", category: "Dessert", price: 8.99 },
-];
+ ];
 
 //Food Type Selection
 const foodTypes = [
