@@ -42,13 +42,7 @@ const RestaurantDetail = () => {
                     />
                 </Grid>
             </Grid>
-            <section className='mb-5 mt-5'>
-                <h3 className='text-2xl font-semibold'>Restaurant Name</h3>
-                <p className='text-gray-500'>Cuisine: Indian</p>
-                <p className='mt-1 text-gray-500'>
-                    A delightful place to enjoy authentic Indian cuisine.
-                </p>
-            </section>
+           
         </div>
     );
 };
