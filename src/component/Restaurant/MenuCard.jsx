@@ -59,8 +59,8 @@ const MenuCard = () => {
             </div>
 
             <div>
-              <Button>
-                Add to Cart
+              <Button >
+               {true ? "Add to Cart" : "Out of Stock"} Add to Cart
               </Button>
             </div>
           </form>
