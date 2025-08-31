@@ -24,6 +24,7 @@ const MenuCard = () => {
              <div className='space-y-5 m-3 lg:space-y-10 lg:max-w-2xl'>
                <p className='font-semibold text-xl'>Burger</p>
                <p>₹499</p>
+               
              </div>
           </div>
         </AccordionSummary>
