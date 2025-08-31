@@ -5,13 +5,6 @@ const RestaurantDetail = () => {
     return (
         <div className='px-5 py-5 lg:px-20'>
             {/* SECTION FOR RESTAURANT INFO */}
-            <section className='mb-5'>
-                <h3 className='text-2xl font-semibold'>Restaurant Name</h3>
-                <p className='text-gray-500'>Cuisine: Indian</p>
-                <p className='mt-1 text-gray-500'>
-                    A delightful place to enjoy authentic Indian cuisine.
-                </p>
-            </section>
 
             {/* IMAGE GALLERY GRID */}
             <Grid container spacing={2}>
@@ -52,5 +45,12 @@ const RestaurantDetail = () => {
         </div>
     );
 };
+            <section className='mb-5'>
+                <h3 className='text-2xl font-semibold'>Restaurant Name</h3>
+                <p className='text-gray-500'>Cuisine: Indian</p>
+                <p className='mt-1 text-gray-500'>
+                    A delightful place to enjoy authentic Indian cuisine.
+                </p>
+            </section>
 
 export default RestaurantDetail;
