@@ -167,6 +167,7 @@ const RestaurantDetailPage = () => {
                                         {foodTypes.map((type) => (
                                             <FormControlLabel
                                                 key={type.value}
+                                                value={type.value}
                                                 control={<Radio />}
                                                 label={type.label}
                                                 
