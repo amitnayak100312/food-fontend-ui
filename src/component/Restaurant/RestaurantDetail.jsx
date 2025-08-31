@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
-import { Divider, FormControl, Typography } from '@mui/material';
+import { Divider, FormControl, Radio, RadioGroup, Typography } from '@mui/material';
 
 // SVG icon for stars
 const StarIcon = () => (
@@ -131,8 +131,10 @@ const RestaurantDetailPage = () => {
                                   Food Type
                                 </Typography>
 
-                                <FormControl>
-                                    <Radi
+                                <FormControl className='py-10 space-y-5' component={}>
+                                    <RadioGroup>
+
+                                    </RadioGroup>
                                 </FormControl>
                               </div>
                             </div>
