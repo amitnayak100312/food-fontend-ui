@@ -13,7 +13,17 @@ const RestaurantDetail = () => {
                         alt="Restaurant Main"
                     />
                 </Grid>
-                {/* Right Side: Restaurant Details */}
+                <Grid item xs={12} md={6}>
+                    {/* Big Image Slider */}
+                    <div className="w-full h-[40vh] rounded-md overflow-hidden">
+                        <img
+                            className="w-full h-full object-cover transition-all duration-500"
+                            src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Restaurant Slide"
+                        />
+                        {/* You can replace the above <img> with a slider component like react-slick for auto sliding */}
+                    </div>
+                </Grid>}
                 <Grid item xs={12} md={6}>
                     <section className="space-y-4">
                         <h3 className="text-2xl font-semibold">Restaurant Name</h3>
