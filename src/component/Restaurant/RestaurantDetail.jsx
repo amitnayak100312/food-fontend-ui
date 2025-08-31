@@ -122,8 +122,7 @@ const RestaurantDetailPage = () => {
              <Divider />
                     <section className="pt-[2rem] lg:flex relative ">
                             <div className="space-y-10 lg:w-[20%] filter">
-                                Filter
-                            </div>
+                                
  
                              <div className="space-y-5 lg:sticky top-28">
                               <div>
@@ -137,6 +136,7 @@ const RestaurantDetailPage = () => {
                                     </RadioGroup>
                                 </FormControl>
                               </div>
+                            </div>
                             </div>
                     </section>
         </div>
