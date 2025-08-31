@@ -65,7 +65,7 @@ const RestaurantDetailPage = () => {
                         <p className="mt-2 text-lg text-indigo-400 font-semibold">Indian & Continental Cuisine</p>
                         
                         <LocationOnIcon />  <span>
-                            Gujarat,
+                            Gujarat,Surat
                         </span>
                         <CalendarTodayIcon />
                             <span>
