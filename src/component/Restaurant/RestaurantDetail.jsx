@@ -25,7 +25,13 @@ const restaurantImages = [
     { id: 4, url: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/335581096/original/7462bc5f9c9411f8e01ba3bf57f2115c69acc68d/create-high-quality-4k-renders-for-your-restaurant-and-cafe-e48e.jpg', alt: 'The exterior of the restaurant at night' },
 ];
 
-//Food 
+//Food Type Selection
+const foodTypes = [
+    { id: 1, label: 'Italian' },
+    { id: 2, label: 'Chinese' },
+    { id: 3, label: 'Indian' },
+    { id: 4, label: 'Mexican' },
+];
 
 const RestaurantDetailPage = () => {
     // State for the image gallery
