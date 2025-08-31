@@ -68,11 +68,12 @@ const RestaurantDetailPage = () => {
                         <span>
                             Gujarat,Surat
                         </span>
+                        <br />  
                         <CalendarTodayIcon />
                             <span>
                                 Mon-Sun 10:00 AM - 11:00 PM(Today)
-                        </div>
                             </span>
+                        </div>
 
 
                         <div className="flex items-center mt-3">
