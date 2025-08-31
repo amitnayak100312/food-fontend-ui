@@ -62,8 +62,8 @@ const RestaurantDetailPage = () => {
     const [mainImage, setMainImage] = useState(restaurantImages[0]);
 
     return (
-        
         <div className="px-5 lg:px-20 font-sans">
+            <Divider />
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="flex flex-col lg:flex-row gap-12">
 
