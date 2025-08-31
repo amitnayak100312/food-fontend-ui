@@ -176,7 +176,7 @@ const RestaurantDetailPage = () => {
                                     </RadioGroup>
                                 </FormControl>
                               </div>
-                                            
+                                 <Divider />     
                               <div>
                                 <Typography variant="h5" sx={{paddingBottom:"1rem"}}>
                                   Food Category
