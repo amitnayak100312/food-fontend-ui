@@ -46,6 +46,9 @@ const foodTypes = [
 ];
 
 const RestaurantDetailPage = () => {
+    //local state for food type selection
+    const [selectedFoodType, setSelectedFoodType] = useState(foodTypes[0].value);
+
     // State for the image gallery
     const [mainImage, setMainImage] = useState(restaurantImages[0]);
 
