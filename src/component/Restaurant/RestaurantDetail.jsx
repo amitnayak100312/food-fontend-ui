@@ -132,7 +132,7 @@ const RestaurantDetailPage = () => {
                                 </Typography>
 
                                 <FormControl>
-                                    <R
+                                    <Radi
                                 </FormControl>
                               </div>
                             </div>
