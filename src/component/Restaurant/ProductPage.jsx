@@ -44,7 +44,7 @@ const ProductPage = () => {
                         <h1 className="mt-4 text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
                             Application UI Icon Pack
                         </h1>
-                        <div className="flex items-center">
+                        <div className="flex items-center m">
                             {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
                         </div>
                         <p className="mt-2 text-sm text-gray-500">
