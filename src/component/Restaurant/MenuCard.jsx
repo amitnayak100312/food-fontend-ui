@@ -17,8 +17,9 @@ const MenuCard = () => {
           id="panel2-header"
         >
           <div className='lg:flex items-center justify-between'>
-            <Typography component="span">Accordion 2</Typography>
-            <ArrowDownwardIcon />
+             <div>
+                <img src="" alt="" />
+             </div>
           </div>
         </AccordionSummary>
         <AccordionDetails>
