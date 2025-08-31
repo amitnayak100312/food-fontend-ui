@@ -177,7 +177,29 @@ const RestaurantDetailPage = () => {
                                 </FormControl>
                               </div>
 
-                              
+                              <div>
+                                <Typography variant="h5" sx={{paddingBottom:"1rem"}}>
+                                  Food Category
+                                </Typography>
+
+                                <FormControl className='py-10 space-y-5' component={"fieldset"}>
+                                    <RadioGroup
+                                        value={foodType}
+                                        onChange={handlerFilter}
+                                        name='food_type'
+                                    >
+                                        {foodTypes.map((type) => (
+                                            <FormControlLabel
+                                                key={type.value}
+                                                value={type.value}
+                                                control={<Radio />}
+                                                label={type.label}
+                                                
+                                            /> 
+                                        ))}
+                                    </RadioGroup>
+                                </FormControl>
+                              </div>
                             </div>
                             </div>
                     </section>
