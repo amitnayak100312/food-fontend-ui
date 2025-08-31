@@ -49,6 +49,11 @@ const RestaurantDetailPage = () => {
     //local state for food type selection
     const [foodType, setFoodType] = useState("all");
 
+    // Handler for food type change
+    const handleFoodTypeChange = (e) => {
+        setFoodType(e.target.value);
+    };
+
     // State for the image gallery
     const [mainImage, setMainImage] = useState(restaurantImages[0]);
 
@@ -80,7 +85,7 @@ const RestaurantDetailPage = () => {
                             ))}
                         </div>
                     </div>
-
+                            
                     {/* Right Column: Restaurant Details */}
                     <div className="lg-w-1/2">
                         <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
