@@ -13,7 +13,7 @@ const RestaurantDetail = () => {
                         alt="Restaurant Main"
                     />
                 </Grid>
-                {/* Right Side: Restaurant Details */}
+                {/* Right Side: `   `12aaq  Restaurant Details */}
                 <Grid item xs={12} md={6}>
                     <section className="space-y-4">
                         <h3 className="text-2xl font-semibold">Restaurant Name</h3>
