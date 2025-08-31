@@ -51,7 +51,7 @@ const MenuCard = () => {
                   <div>
                     <p>{item.category}</p>
                   <FormGroup>
-                   {item.ingredients.map((item)=> <FormControlLabel control={<Checkbox  />} label={item} />)}
+                   {item.ingredients.map((item)=> <FormControlLabel control={<Checkbox  onChange={he}/>} label={item} />)}
                   </FormGroup>
                   </div>
                 )
@@ -59,7 +59,7 @@ const MenuCard = () => {
             </div>
 
             <div className='pt-5 rounded-md'>
-              <Button type='submit' disabled={false} variant='contained' className='bg-[#60B246] mt-5'>
+              <Button type='submit' disabled={false} variant='contained' className='mt-5'>
                {true ? "Add to Cart" : "Out of Stock"}
               </Button>
             </div>
