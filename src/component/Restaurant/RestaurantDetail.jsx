@@ -149,9 +149,7 @@ const RestaurantDetailPage = () => {
                
              <Divider />
                     <section className="pt-[2rem] lg:flex relative ">
-                            <div className="space-y-10 lg:w-[20%] filter">
-                                
- 
+                            <div className="space-y-10 lg:w-[20%] filter ">
                              <div className="space-y-5 lg:sticky top-28">
                               <div>
                                 <Typography variant="h5" sx={{paddingBottom:"1rem"}}>
