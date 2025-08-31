@@ -25,7 +25,7 @@ const MenuCard = () => {
                <p className='font-semibold text-xl'>Burger</p>
                <p>₹499</p>
                <p>
-                d
+                    A burger (also known as a hamburger) is a sandwich consisting of one
                </p>
              </div>
           </div>
