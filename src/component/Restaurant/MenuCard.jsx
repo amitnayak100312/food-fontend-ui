@@ -8,7 +8,7 @@ import { FormGroup,FormControlLabel } from '@mui/material';
 const demo = [
   {
     category: "Nuts & seeds",
-    ingredients: "Cashews"
+    ingredients: ["Cashews"]
   },
   {
     category: "Proteins",
