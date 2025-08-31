@@ -201,6 +201,8 @@ const RestaurantDetailPage = () => {
                               </div>
                             </div>
                             </div>
+
+                            
                     </section>
         </div>
     );
