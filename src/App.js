@@ -5,7 +5,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import { darkTheme } from './Theme/DarkTheam';
 import Home from './component/Home/Home';
 import RestaurantDetail from './component/Restaurant/RestaurantDetail';
-imp
+import ProductPage from './component/D'
 function App() {
   return (
     <>
