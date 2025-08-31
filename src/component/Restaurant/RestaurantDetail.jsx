@@ -62,9 +62,9 @@ const RestaurantDetailPage = () => {
                         <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
                             The Golden Spoon
                         </h1>
-                        <p className="mt-2 text-lg text-indigo-400 font-semibold">Indian & Continental Cuisine</p>
-                        
-                        <LocationOnIcon />  <span>
+                        <div className='mt-2 text-lg text-indigo-400 font-semibold'></div>
+                        <LocationOnIcon />  
+                        <span>
                             Gujarat,Surat
                         </span>
                         <CalendarTodayIcon />
