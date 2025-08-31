@@ -50,8 +50,8 @@ const RestaurantDetailPage = () => {
     const [foodType, setFoodType] = useState("all");
 
     // Handler for food type change
-    const handleFoodTypeChange = (e) => {
-        setFoodType(e.target.value,);
+    const handlerFilter = (e) => {
+        setFoodType(e.target.value,e.target.name);
     };
 
     // State for the image gallery
