@@ -29,7 +29,7 @@ const ProductPage = () => {
                     
                     {/* Left Column: Product Image */}
                     <div className="lg:w-1/2">
-                        <div className="bg-gradient-to-br from-indirounded-2xl p-8 shadow-lg">
+                        <div className="bg-gradient-to-br rounded-2xl p-8 shadow-lg">
                           <img
                         className='w-full h-[40vh] object-cover rounded-md'
                         src='https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
@@ -40,13 +40,13 @@ const ProductPage = () => {
 
                     {/* Right Column: Product Details */}
                     <div className="lg:w-1/2">
-                        <div className="flex items-center">
-                            {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
-                        </div>
                         
                         <h1 className="mt-4 text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
                             Application UI Icon Pack
                         </h1>
+                        <div className="flex items-center">
+                            {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
+                        </div>
                         <p className="mt-2 text-sm text-gray-500">
                             Version 1.0 (Updated June 5, 2021)
                         </p>
