@@ -64,7 +64,13 @@ const RestaurantDetailPage = () => {
                         </h1>
                         <p className="mt-2 text-lg text-indigo-400 font-semibold">Indian & Continental Cuisine</p>
                         
-                        <LocationOnIcon /> <CalendarTodayIcon />
+                        <LocationOnIcon /> 
+                        <CalendarTodayIcon />
+                            <span>
+                                Mon-Sun 
+                            </span>
+
+
                         <div className="flex items-center mt-3">
                             {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
                              <p className="ml-2 text-sm text-gray-400">451 reviews</p>
