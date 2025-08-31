@@ -186,7 +186,7 @@ const RestaurantDetailPage = () => {
                                     <RadioGroup
                                         value={foodType}
                                         onChange={handlerFilter}
-                                        name='food_type'
+                                        name='food_Category'
                                     >
                                         {category.map((item) => (
                                             <FormControlLabel
@@ -202,7 +202,7 @@ const RestaurantDetailPage = () => {
                             </div>
                             </div>
 
-                            <div className='space-y-5 lg:w-[80%] '></div>
+                            <div className='space-y-5 lg:w-[80%] lg:p1-10'> Menu</div>
                     </section>
         </div>
     );
