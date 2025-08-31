@@ -123,7 +123,7 @@ const RestaurantDetailPage = () => {
 
                             </div>
 
-                             <div className="space-y-5 lg:w-[80%] lg: menu">
+                             <div className="space-y-5 lg:w-[80%] lg:pl menu">
 
                             </div>
                     </section>
