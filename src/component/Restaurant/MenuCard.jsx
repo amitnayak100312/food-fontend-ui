@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
-const ingredients=[
+const demo=[
   {
     category:"Nuts & seeds",
     ingredients: "Cashews"
