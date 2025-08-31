@@ -19,7 +19,7 @@ const restaurantImages = [
     { id: 1, url: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', alt: 'Platter of gourmet food' },
     { id: 2, url: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', alt: 'Cozy interior of the restaurant' },
     { id: 3, url: 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', alt: 'A glass of wine on a table' },
-    { id: 4, url: '', alt: 'The exterior of the restaurant at night' },
+    { id: 4, url: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/335581096/original/7462bc5f9c9411f8e01ba3bf57f2115c69acc68d/create-high-quality-4k-renders-for-your-restaurant-and-cafe-e48e.jpg', alt: 'The exterior of the restaurant at night' },
 ];
 
 const RestaurantDetailPage = () => {
