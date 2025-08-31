@@ -51,7 +51,7 @@ const MenuCard = () => {
                   <div>
                     <p>{item.category}</p>
                   <FormGroup>
-                   {item.ingredients.map((item)=><FormControlLabel control={<Checkbox defaultChecked />} label={item} />)}
+                   {item.ingredients.map((item)=> <FormControlLabel control={<Checkbox defaultChecked />} label={item} />)}
                   </FormGroup>
                   </div>
                 )
