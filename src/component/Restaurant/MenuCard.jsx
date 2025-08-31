@@ -44,7 +44,11 @@ const MenuCard = () => {
         </AccordionSummary>
         <AccordionDetails>
           <form >
-            <div className='flex gap-5 flex-wrap'></div>
+            <div className='flex gap-5 flex-wrap'>
+              {
+                demo.map((item)=>)
+              }
+            </div>
           </form>
         </AccordionDetails>
       </Accordion>
