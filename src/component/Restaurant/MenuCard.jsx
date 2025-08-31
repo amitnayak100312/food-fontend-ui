@@ -43,7 +43,9 @@ const MenuCard = () => {
           </div>
         </AccordionSummary>
         <AccordionDetails>
-          
+          <form >
+            <div className='flex gap-5 flex-wrap'></div>
+          </form>
         </AccordionDetails>
       </Accordion>
     </div>
