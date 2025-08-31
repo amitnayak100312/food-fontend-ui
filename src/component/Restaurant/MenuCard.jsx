@@ -3,7 +3,8 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-
+import Checkbox from '@mui/material/Checkbox';
+import { FormGroup } from '@mui/material';
 const demo = [
   {
     category: "Nuts & seeds",
