@@ -23,18 +23,18 @@ const ProductPage = () => {
     ];
 
     return (
-        <div className="bg-wh font-sans">
+        <div className="font-sans">
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="flex flex-col lg:flex-row gap-12">
                     
                     {/* Left Column: Product Image */}
                     <div className="lg:w-1/2">
                         <div className="bg-gradient-to-br from-indigo-500 to-blue-600 rounded-2xl p-8 shadow-lg">
-                           <img 
-                                src="https://assets-global.website-files.com/6344c9cef89d6f2259918786/6373b316599299496f427f79_app-ui-icon-pack-1-blur-p-1080.webp" 
-                                alt="Application UI Icon Pack"
-                                className="w-full h-auto object-cover rounded-xl"
-                            />
+                          <img
+                        className='w-full h-[40vh] object-cover rounded-md'
+                        src='https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+                        alt='Restaurant Main'
+                    />
                         </div>
                     </div>
 
