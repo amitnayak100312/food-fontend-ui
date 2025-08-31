@@ -16,7 +16,7 @@ const MenuCard = () => {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <div className='lg:px'>
+          <div className='lgflex ite '>
 
           </div>
         </AccordionSummary>
