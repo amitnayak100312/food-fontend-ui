@@ -31,7 +31,7 @@ const ProductPage = () => {
                     <div className="lg:w-1/2">
                         <div className="bg-gradient-to-br rounded-2xl p-8 shadow-lg">
                           <img
-                        className='w-full h-[40vh] object-cover rounded-md'
+                        className='w-full h-[30vh] object-cover rounded-md'
                         src='https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                         alt='Restaurant Main'
                     />
@@ -84,25 +84,7 @@ const ProductPage = () => {
                     </div>
                 </div>
 
-                {/* Tabs Section */}
-                <div className="mt-16 border-t border-gray-200 pt-6">
-                    <nav className="flex gap-8">
-                        {tabs.map((tab) => (
-                             <button
-                                key={tab.id}
-                                onClick={() => setActiveTab(tab.id)}
-                                className={`pb-2 font-medium transition-colors duration-200
-                                    ${activeTab === tab.id
-                                        ? 'text-indigo-600 border-b-2 border-indigo-600'
-                                        : 'text-gray-500 hover:text-gray-800'
-                                    }`
-                                }
-                            >
-                                {tab.name}
-                            </button>
-                        ))}
-                    </nav>
-                </div>
+               
             </main>
         </div>
     );
