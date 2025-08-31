@@ -38,8 +38,7 @@ const category = [
 ];
 
 //Menu Cards
-const menuItems = [
- ];
+const menu= [1,1,1,1,1,1];
 
 //Food Type Selection
 const foodTypes = [
