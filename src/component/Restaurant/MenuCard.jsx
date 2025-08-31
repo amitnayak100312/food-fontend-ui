@@ -58,7 +58,7 @@ const MenuCard = () => {
               }
             </div>
 
-            <div>
+            <div className='pt-5 rounded-md'>
               <Button type='submit' disabled={false} variant='contained' className='bg-[#60B246] mt-5'>
                {true ? "Add to Cart" : "Out of Stock"}
               </Button>
