@@ -125,7 +125,7 @@ const RestaurantDetailPage = () => {
                                 Filter
                             </div>
 
-                             <div className="space-y-5 lg:w-[80%] lg:pl-10">
+                             <div className="space-y-5 lg:sticky top-28">
                                 Menu
                             </div>
                     </section>
