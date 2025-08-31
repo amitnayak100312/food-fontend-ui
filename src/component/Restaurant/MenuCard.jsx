@@ -23,7 +23,9 @@ const demo = [
 const MenuCard = () => {
   return (
 
-    const handelCheckboxChange=()
+    const handelCheckboxChange=(value)=>{
+      console.log("value")
+    }
 
     <div>
       <Accordion>
