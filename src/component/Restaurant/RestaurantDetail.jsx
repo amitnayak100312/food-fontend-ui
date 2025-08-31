@@ -200,7 +200,9 @@ const RestaurantDetailPage = () => {
                             </div>
                             </div>
 
-                            <div className='space-y-5 lg:w-[80%] lg:p1-10'> Menu</div>
+                            <div className='space-y-5 lg:w-[80%] lg:p1-10'>
+                                {menubar.map((item) => <MenuCard key={item.id} item={item} />)}
+                            </div>
                     </section>
         </div>
     );
