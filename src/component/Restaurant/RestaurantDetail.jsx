@@ -149,7 +149,7 @@ const RestaurantDetailPage = () => {
 
                                 <FormControl className='py-10 space-y-5' component={"fieldset"}>
                                     <RadioGroup>
-
+                                
                                     </RadioGroup>
                                 </FormControl>
                               </div>
