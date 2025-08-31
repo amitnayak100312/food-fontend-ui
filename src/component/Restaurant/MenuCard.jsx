@@ -22,7 +22,7 @@ const MenuCard = () => {
              </div>
 
              <div className='space-y-5 lg:space-y-10 lg:max-w-2xl'>
-               <p>
+               <p className='font-semibold text-xl'>
                 Burger with a juicy beef patty, fresh lettuce, tomato, and cheese.
                </p>
              </div>
