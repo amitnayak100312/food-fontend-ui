@@ -67,7 +67,7 @@ const RestaurantDetailPage = () => {
                         <LocationOnIcon /> 
                         <CalendarTodayIcon />
                             <span>
-                                Mon-Sun 
+                                Mon-Sun 10:00 AM - 11:00 PM()
                             </span>
 
 
