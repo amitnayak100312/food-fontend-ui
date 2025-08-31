@@ -38,7 +38,8 @@ const category = [
 const foodTypes = [
    {label:"All", value:"all"},
   {label:"Veg", value:"veg"},
-  
+  {label:"Non-Veg", value:"non_veg"},
+  {label:"Seasona"}
 ];
 
 const RestaurantDetailPage = () => {
