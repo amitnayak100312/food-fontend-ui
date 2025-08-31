@@ -47,7 +47,7 @@ const foodTypes = [
 
 const RestaurantDetailPage = () => {
     //local state for food type selection
-    const [selectedFoodType, setSelectedFoodType] = useState("all");
+    const [FoodType, setSelectedFoodType] = useState("all");
 
     // State for the image gallery
     const [mainImage, setMainImage] = useState(restaurantImages[0]);
@@ -155,7 +155,7 @@ const RestaurantDetailPage = () => {
 
                                 <FormControl className='py-10 space-y-5' component={"fieldset"}>
                                     <RadioGroup value={selectedFoodType} 
-                                    onChange={(e) => setSelectedFoodType(e.target.value)} name='food-type' value={selectedFoodType}>
+                                    onChange={(e) => setSelectedFoodType(e.target.value)} name='food-type' value={foodTypes}>
                                         {foodTypes.map((type) => (
                                             <FormControlLabel
                                                 key={type.value}
