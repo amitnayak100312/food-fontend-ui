@@ -202,7 +202,7 @@ const RestaurantDetailPage = () => {
                             </div>
                             </div>
 
-                            
+                            <div className='space-y-'></div>
                     </section>
         </div>
     );
