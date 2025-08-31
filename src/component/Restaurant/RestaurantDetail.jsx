@@ -122,6 +122,10 @@ const RestaurantDetailPage = () => {
                             <div className="space-y-10 lg:w-[20%] filter">
 
                             </div>
+
+                             <div className="space-y-5 lg:w-[80%] lg: menu">
+
+                            </div>
                     </section>
                 </Divider>
             
