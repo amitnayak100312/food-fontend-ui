@@ -61,11 +61,11 @@ const RestaurantDetailPage = () => {
                         </h1>
                         <p className="mt-2 text-lg text-indigo-400 font-semibold">Indian & Continental Cuisine</p>
                         
+                        <LocationOnIcon />
                         <div className="flex items-center mt-3">
                             {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
                              <p className="ml-2 text-sm text-gray-400">451 reviews</p>
                         </div>
-                        <LocationOnIcon />
                         <p className="mt-4 text-gray-400">
                             Experience a culinary journey with our exquisite selection of authentic Indian and Continental dishes. The Golden Spoon offers a sophisticated atmosphere perfect for any occasion.
                         </p>
