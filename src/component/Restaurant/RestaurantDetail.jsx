@@ -127,8 +127,8 @@ const RestaurantDetailPage = () => {
 
                              <div className="space-y-5 lg:sticky top-28">
                               <div>
-                                <Typography variant="h5" sx={}>
-                                  Menu
+                                <Typography variant="h5" sx={{paddingBottom:"1rem"}}>
+                                  Food Type
                                 </Typography>
                               </div>
                             </div>
