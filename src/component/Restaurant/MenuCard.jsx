@@ -16,7 +16,9 @@ const MenuCard = () => {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography component="span">Accordion 2</Typography>
+          <div className='lg:px'>
+
+          </div>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
