@@ -131,7 +131,7 @@ const RestaurantDetailPage = () => {
                                   Food Type
                                 </Typography>
 
-                                <FormControl className='py-10 space-y-5' component={}>
+                                <FormControl className='py-10 space-y-5' component={"fieldset"}>
                                     <RadioGroup>
 
                                     </RadioGroup>
