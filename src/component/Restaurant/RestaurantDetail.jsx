@@ -64,10 +64,12 @@ const RestaurantDetailPage = () => {
                         </h1>
                         <p className="mt-2 text-lg text-indigo-400 font-semibold">Indian & Continental Cuisine</p>
                         
-                        <LocationOnIcon /> 
+                        <LocationOnIcon />  <span>
+                            Indian
+                        </span>
                         <CalendarTodayIcon />
                             <span>
-                                Mon-Sun 10:00 AM - 11:00 PM()
+                                Mon-Sun 10:00 AM - 11:00 PM(Today)
                             </span>
 
 
