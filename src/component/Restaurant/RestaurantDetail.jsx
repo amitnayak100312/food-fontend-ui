@@ -62,7 +62,8 @@ const RestaurantDetailPage = () => {
                         <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
                             The Golden Spoon
                         </h1>
-                        <div className='mt-2 text-lg text-indigo-400 font-semibold'></div>
+                        <div className='mt-2 text-lg text-indigo-400 font-semibold'>
+
                         <LocationOnIcon />  
                         <span>
                             Gujarat,Surat
@@ -70,6 +71,7 @@ const RestaurantDetailPage = () => {
                         <CalendarTodayIcon />
                             <span>
                                 Mon-Sun 10:00 AM - 11:00 PM(Today)
+                        </div>
                             </span>
 
 
