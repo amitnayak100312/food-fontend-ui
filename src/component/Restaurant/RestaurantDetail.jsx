@@ -116,13 +116,13 @@ const RestaurantDetailPage = () => {
                 </div>
             </main>
 
-            <section>
+        
                 <Divider>
                     <section>
-                        
+
                     </section>
                 </Divider>
-            </section>
+            
         </div>
     );
 };
