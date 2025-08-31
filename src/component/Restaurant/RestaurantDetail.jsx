@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
-import { Divider } from '@mui/material';
+import { Divider, Typography } from '@mui/material';
 
 // SVG icon for stars
 const StarIcon = () => (
@@ -126,7 +126,11 @@ const RestaurantDetailPage = () => {
                             </div>
 
                              <div className="space-y-5 lg:sticky top-28">
-                                Menu
+                              <div>
+                                <Typography variant="h5" className="">
+                                  Menu
+                                </Typography>
+                              </div>
                             </div>
                     </section>
         </div>
