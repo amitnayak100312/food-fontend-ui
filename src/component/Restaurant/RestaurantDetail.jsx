@@ -16,7 +16,7 @@ const CheckIcon = () => (
 
 // Image data for the restaurant gallery
 const restaurantImages = [
-    { id: 1, url: 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg', alt: 'Platter of gourmet food' },
+    { id: 1, url: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'', alt: 'Platter of gourmet food' },
     { id: 2, url: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg', alt: 'Cozy interior of the restaurant' },
     { id: 3, url: 'https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg', alt: 'A glass of wine on a table' },
     { id: 4, url: 'https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg', alt: 'The exterior of the restaurant at night' },
