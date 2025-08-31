@@ -47,7 +47,7 @@ const foodTypes = [
 
 const RestaurantDetailPage = () => {
     //local state for food type selection
-    const [FoodType, setSelectedFoodType] = useState("all");
+    const [foodType, setFoodType] = useState("all");
 
     // State for the image gallery
     const [mainImage, setMainImage] = useState(restaurantImages[0]);
