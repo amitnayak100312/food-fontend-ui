@@ -37,10 +37,8 @@ const category = [
 //Food Type Selection
 const foodTypes = [
    {label:"All", value:"all"},
-   {label:"Appetizers", value:"appetizers"},
-   {label:"Main Course", value:"main_course"},
-   {label:"Desserts", value:"desserts"},
-   {label:"Beverages", value:"beverages"}
+  {label:"Veg", value:"veg"},
+  
 ];
 
 const RestaurantDetailPage = () => {
