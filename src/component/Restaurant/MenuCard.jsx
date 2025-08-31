@@ -6,6 +6,24 @@ import Typography from '@mui/material/Typography';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
+const ingredients=[
+  {
+    category:"Nuts & seeds",
+    ingredients: "Cashews"
+  },
+  {
+    category:"Proteins",
+    ingredients: "Ground Beef"
+  },
+  {
+    category:"Proteins",
+    ingredients:"Bacon Strips"
+  },
+  {
+    category:"Bread",
+    ingredients:"Hamburger Buns"
+  }
+]
 
 const MenuCard = () => {
   return (
