@@ -155,7 +155,7 @@ const RestaurantDetailPage = () => {
 
                                 <FormControl className='py-10 space-y-5' component={"fieldset"}>
                                     <RadioGroup value={selectedFoodType} 
-                                    onChange={(e) => setSelectedFoodType(e.target.value)} name='food-type'>
+                                    onChange={(e) => setSelectedFoodType(e.target.value)} name='food-type' value={selectedFoodType}>
                                         {foodTypes.map((type) => (
                                             <FormControlLabel
                                                 key={type.value}
