@@ -29,7 +29,7 @@ const ProductPage = () => {
                     
                     {/* Left Column: Product Image */}
                     <div className="lg:w-1/2">
-                        <div className="bg-gradient-to-br from-indigo-500 to-blue-600 rounded-2xl p-8 shadow-lg">
+                        <div className="bg-gradient-to-br from-indirounded-2xl p-8 shadow-lg">
                           <img
                         className='w-full h-[40vh] object-cover rounded-md'
                         src='https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
