@@ -33,8 +33,13 @@ const category = [
    "Dessert"
 ];
 
-//Fo
-
+//Food Type Selection
+const foodTypes = [
+   "Appetizers",
+   "Main Course",
+   "Desserts",
+   "Beverages"
+];
 
 const RestaurantDetailPage = () => {
     // State for the image gallery
