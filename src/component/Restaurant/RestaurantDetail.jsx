@@ -118,7 +118,7 @@ const RestaurantDetailPage = () => {
 
         
                 <Divider>
-                    <section className="pt-[2rem] lg:fle">
+                    <section className="pt-[2rem] lg:flex relative">
 
                     </section>
                 </Divider>
