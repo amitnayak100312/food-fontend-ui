@@ -51,7 +51,7 @@ const RestaurantDetailPage = () => {
 
     // Handler for food type change
     const handleFoodTypeChange = (e) => {
-        setFoodType(e.target.value);
+        setFoodType(e.target.value,);
     };
 
     // State for the image gallery
