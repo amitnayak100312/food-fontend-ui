@@ -22,12 +22,9 @@ const MenuCard = () => {
              </div>
 
              <div className='space-y-5 lg:space-y-10 lg:max-w-2xl'>
-                <Typography variant="h6" className='text-white'>
-                   Menu Item Title
-                </Typography>
-                <Typography variant="body2" className='text-gray-400'>
-                   ₹500
-                </Typography>
+               <p>
+                Burger with a juicy beef patty, fresh lettuce, tomato, and cheese.
+               </p>
              </div>
           </div>
         </AccordionSummary>
