@@ -48,14 +48,7 @@ const RestaurantDetail = () => {
                             The Application UI Icon Pack comes with over 200 icons in 3 styles: outline, filled, and branded. This playful icon pack is tailored for complex application user interfaces with a friendly and legible look.
                         </p>
 
-                        <div className="mt-8 flex items-center gap-4">
-                            <button className="flex-1 sm:flex-none justify-center bg-indigo-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-indigo-700 transition-colors duration-200">
-                                Pay $220
-                            </button>
-                            <button className="flex-1 sm:flex-none justify-center bg-white text-gray-800 font-semibold py-3 px-8 rounded-lg border border-gray-300 hover:bg-gray-100 transition-colors duration-200">
-                                Preview
-                            </button>
-                        </div>
+                        
 
                         <div className="mt-10">
                             <h2 className="text-lg font-semibold text-gray-900">Highlights</h2>
