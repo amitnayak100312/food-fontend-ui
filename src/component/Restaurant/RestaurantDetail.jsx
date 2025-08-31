@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import { Divider, FormControl, Radio, RadioGroup, Typography } from '@mui/material';
+import { Label } from '@mui/icons-material';
 
 // SVG icon for stars
 const StarIcon = () => (
@@ -35,10 +36,11 @@ const category = [
 
 //Food Type Selection
 const foodTypes = [
-   "Appetizers",
-   "Main Course",
-   "Desserts",
-   "Beverages"
+   {label:"All", value:"all"},
+   {label:"Appetizers", value:"appetizers"},
+   {label:"Main Course", value:"main_course"},
+   {label:"Desserts", value:"desserts"},
+   {label:"Beverages", value:"beverages"}
 ];
 
 const RestaurantDetailPage = () => {
