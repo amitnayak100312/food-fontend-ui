@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 // SVG icon for stars
 const StarIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-yellow-400">
@@ -65,7 +65,7 @@ const RestaurantDetailPage = () => {
                             {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
                              <p className="ml-2 text-sm text-gray-400">451 reviews</p>
                         </div>
-                        
+                        <L
                         <p className="mt-4 text-gray-400">
                             Experience a culinary journey with our exquisite selection of authentic Indian and Continental dishes. The Golden Spoon offers a sophisticated atmosphere perfect for any occasion.
                         </p>
