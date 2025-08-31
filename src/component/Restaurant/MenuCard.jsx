@@ -4,7 +4,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import Checkbox from '@mui/material/Checkbox';
-import { FormGroup,FormControlLabel } from '@mui/material';
+import { FormGroup,FormControlLabel, Button } from '@mui/material';
 const demo = [
   {
     category: "Nuts & seeds",
@@ -51,11 +51,17 @@ const MenuCard = () => {
                   <div>
                     <p>{item.category}</p>
                   <FormGroup>
-                   {item.ingredients.map((item)=> <FormControlLabel control={<Checkbox defaultChecked />} label={item} />)}
+                   {item.ingredients.map((item)=> <FormControlLabel control={<Checkbox  />} label={item} />)}
                   </FormGroup>
                   </div>
                 )
               }
+            </div>
+
+            <div>
+              <Button>
+                Add to Cart
+              </Button>
             </div>
           </form>
         </AccordionDetails>
