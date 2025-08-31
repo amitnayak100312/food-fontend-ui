@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
+
+
 // SVG icon for stars
 const StarIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-yellow-400">
@@ -61,7 +64,7 @@ const RestaurantDetailPage = () => {
                         </h1>
                         <p className="mt-2 text-lg text-indigo-400 font-semibold">Indian & Continental Cuisine</p>
                         
-                        <LocationOnIcon />
+                        <LocationOnIcon /> <CalendarTodayIcon /
                         <div className="flex items-center mt-3">
                             {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
                              <p className="ml-2 text-sm text-gray-400">451 reviews</p>
