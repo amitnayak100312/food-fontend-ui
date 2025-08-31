@@ -47,12 +47,14 @@ const MenuCard = () => {
             <div className='flex gap-5 flex-wrap'>
               {
                 demo.map((item) =>
-                  div
+                  <div>
+                    <p>{item.category}</p>
                   <FormGroup>
                     <FormControlLabel control={<Checkbox defaultChecked />} label="Label" />
                     <FormControlLabel required control={<Checkbox />} label="Required" />
                     <FormControlLabel disabled control={<Checkbox />} label="Disabled" />
                   </FormGroup>
+                  </div>
                 )
               }
             </div>
