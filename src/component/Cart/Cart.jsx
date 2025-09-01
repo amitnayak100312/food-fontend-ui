@@ -75,12 +75,9 @@ const Cart = () => {
                             <Card className="flex gap-5 w-64 p-5">
                                 <AddLocationAltIcon />
                                 <div className='space-y-3 text-gray-500'>
-                                    <h1 className='font-semibold text-lg text-white'>Addd New Address</h1>
-                                    <p className='text-sm'>123 Main St, Springfield</p>
-
-                                    {showButton && (
+                                    <h1 className='font-semibold text-lg text-white'>Addd New Address</h1>  
                                         <Button variant="outlined" fullWidth onClick={() => (handleOpenAddressModal)}>Add</Button>
-                                    )}
+                                  
                                 </div>
                             </Card>
                         </div>
