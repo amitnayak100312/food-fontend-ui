@@ -50,7 +50,8 @@ const Cart = () => {
                     <div>
                         <h1 className="text-2xl text-center font-semibold py-10 ">Choose Delivery Address</h1>
                         <div className="flex gap-5 flex-wrap justify-center">
-                            {[1, 1, 1, 1, 1, 1].map((item) => (<AddressCard item={item} showButton={true} />
+                            {[1, 1, 1, 1, 1, 1].map((item) => (
+                                <AddressCard item={item} showButton={true} />
                             ))}
                         </div>
                     </div>
