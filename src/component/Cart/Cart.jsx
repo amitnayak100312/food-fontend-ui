@@ -1,6 +1,7 @@
 import React from "react";
 import CartItem from "./CartItem";
 import { Divider } from "@mui/material";
+import 
 import AddressCard from "./AddressCard";
 import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
 
@@ -13,7 +14,7 @@ const Cart = () => {
 
     const handleOpenAddressModal = () => {
         // Logic to open address modal
-        
+
     }
 
     return (
@@ -73,7 +74,7 @@ const Cart = () => {
                             <Card className="flex gap-5 w-64 p-5">
                                 <AddLocationAltIcon />
                                 <div className='space-y-3 text-gray-500'>
-                                    <h1 className='font-semibold text-lg text-white'>Home</h1>
+                                    <h1 className='font-semibold text-lg text-white'>Addd New Address</h1>
                                     <p className='text-sm'>123 Main St, Springfield</p>
 
                                     {showButton && (
