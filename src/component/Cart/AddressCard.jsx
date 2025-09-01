@@ -13,7 +13,7 @@ const AddressCard = ({item,showButton,handleSelectAddress}) => {
            <p className='text-sm'>123 Main St, Springfield</p>
 
            {showButton &&(
-            <Button variant="contained" fullWidth onClick={() =>handleSelectAddress(item)}>Select</Button>
+            <Button variant="outlined" fullWidth onClick={() =>handleSelectAddress(item)}>Select</Button>
             )}
        </div>
    </Card> 
