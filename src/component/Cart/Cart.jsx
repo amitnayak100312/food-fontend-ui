@@ -71,7 +71,7 @@ const Cart = () => {
                                     <p className='text-sm'>123 Main St, Springfield</p>
 
                                     {showButton && (
-                                        <Button variant="outlined" fullWidth onClick={() => handleSelectAddress(item)}>Add</Button>
+                                        <Button variant="outlined" fullWidth onClick={() => (handleOpenAddress)}>Add</Button>
                                     )}
                                 </div>
                             </Card>
