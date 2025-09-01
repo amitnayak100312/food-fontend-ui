@@ -5,6 +5,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import { darkTheme } from './Theme/DarkTheam';
 import Home from './component/Home/Home';
 import RestaurantDetail from './component/Restaurant/RestaurantDetail';
+import Cart from './component/Cart/Cart';
 function App() {
   return (
     <>
@@ -13,10 +14,11 @@ function App() {
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <Navbar />
-        <Home />
-         
-        <RestaurantDetail />
-         {/* <ProductPage /> */}
+        {/* <Home />
+        <RestaurantDetail /> */}
+        
+        <Cart/>
+
       </ThemeProvider>
     </>
   );
