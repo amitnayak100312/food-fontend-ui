@@ -7,7 +7,7 @@ import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
 
 const items = [1, 1]
 const Cart = () => {
-    const createOrderUsingSelectedAddress=()=>{
+    const createOrderUsingSelectedAddress = () => {
 
     }
     return (
@@ -58,23 +58,23 @@ const Cart = () => {
                         <h1 className="text-2xl text-center font-semibold py-10 ">Choose Delivery Address</h1>
                         <div className="flex gap-5 flex-wrap justify-center">
                             {[1, 1, 1, 1, 1, 1].map((item) => (
-                                <AddressCard 
-                                handleSelectAddress={createOrderUsingSelectedAddress}
-                                item={item} showButton={true} />
+                                <AddressCard
+                                    handleSelectAddress={createOrderUsingSelectedAddress}
+                                    item={item} showButton={true} />
                             ))}
 
-                            
-                             <Card className="flex gap-5 w-64 p-5">
-       <AddLocationAltIcon />
-       <div className='space-y-3 text-gray-500'>
-        <h1 className='font-semibold text-lg text-white'>Home</h1>
-           <p className='text-sm'>123 Main St, Springfield</p>
 
-           {showButton &&(
-            <Button variant="outlined" fullWidth onClick={() =>handleSelectAddress(item)}>Select</Button>
-            )}
-       </div>
-   </Card> 
+                            <Card className="flex gap-5 w-64 p-5">
+                                <AddLocationAltIcon />
+                                <div className='space-y-3 text-gray-500'>
+                                    <h1 className='font-semibold text-lg text-white'>Home</h1>
+                                    <p className='text-sm'>123 Main St, Springfield</p>
+
+                                    {showButton && (
+                                        <Button variant="outlined" fullWidth onClick={() => handleSelectAddress(item)}>Add</Button>
+                                    )}
+                                </div>
+                            </Card>
                         </div>
                     </div>
                 </section>
