@@ -2,7 +2,7 @@ import React from 'react'
 import HomeIcon from '@mui/icons-material/Home';
 import { Card } from '@mui/material';
 import Button from '@mui/material/Button';
-const AddressCard = (item,showButton,handleSelectAddress) => {
+const AddressCard = ({item,showButton,handleSelectAddress}) => {
     
 
   return (
