@@ -62,6 +62,19 @@ const Cart = () => {
                                 handleSelectAddress={createOrderUsingSelectedAddress}
                                 item={item} showButton={true} />
                             ))}
+
+                            
+                             <Card className="flex gap-5 w-64 p-5">
+       <AddLocationAltIcon />
+       <div className='space-y-3 text-gray-500'>
+        <h1 className='font-semibold text-lg text-white'>Home</h1>
+           <p className='text-sm'>123 Main St, Springfield</p>
+
+           {showButton &&(
+            <Button variant="outlined" fullWidth onClick={() =>handleSelectAddress(item)}>Select</Button>
+            )}
+       </div>
+   </Card> 
                         </div>
                     </div>
                 </section>
