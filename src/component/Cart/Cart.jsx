@@ -10,6 +10,12 @@ const Cart = () => {
     const createOrderUsingSelectedAddress = () => {
 
     }
+
+    const handleOpenAddressModal = () => {
+        // Logic to open address modal
+        
+    }
+
     return (
         <div>
             <main className="lg:flex justify-between">
@@ -71,7 +77,7 @@ const Cart = () => {
                                     <p className='text-sm'>123 Main St, Springfield</p>
 
                                     {showButton && (
-                                        <Button variant="outlined" fullWidth onClick={() => (handleOpenAddress)}>Add</Button>
+                                        <Button variant="outlined" fullWidth onClick={() => (handleOpenAddressModal)}>Add</Button>
                                     )}
                                 </div>
                             </Card>
