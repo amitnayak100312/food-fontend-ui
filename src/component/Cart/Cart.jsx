@@ -5,6 +5,7 @@ import { Divider } from "@mui/material";
 import AddressCard from "./AddressCard";
 const items = [1, 1]
 const Cart = () => {
+    
     return (
         <div>
             <main className="lg:flex justify-between">
@@ -54,7 +55,7 @@ const Cart = () => {
                         <div className="flex gap-5 flex-wrap justify-center">
                             {[1, 1, 1, 1, 1, 1].map((item) => (
                                 <AddressCard 
-                                handleSelectAddress={}
+                                handleSelectAddress={createOrderUsingSelectedAddress}
                                 item={item} showButton={true} />
                             ))}
                         </div>
