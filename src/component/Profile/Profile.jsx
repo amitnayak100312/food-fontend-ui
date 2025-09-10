@@ -6,7 +6,7 @@ const Profile = () => {
             <div className='lg:flex justify-between'>
                 <div className='lg:flex justify-between'>
                     <div className='sticky h-[80vh] lg:w-[20%]'>
-                        
+                        <Profilenavigation>
                     </div>
 
                 </div>
