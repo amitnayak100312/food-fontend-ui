@@ -43,8 +43,8 @@ const Cart = () => {
     const [open, setOpen] = React.useState(false);
     const handleClose = () => setOpen(false);
 
-    const handleSubmit = () => {
-
+    const handleSubmit = (value) => {
+        console.log("")
     }
 
     return (
