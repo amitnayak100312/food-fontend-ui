@@ -19,8 +19,9 @@ const menu =[
     {title:"Events",icon:<EventIcon/>},
     {title:"Logout",icon:<LogoutIcon/>},
 ]
-const Profilenavigation = () => {
-    const isSmallScreen = useMediaQuery("(max-width:600px)");
+const Profilenavigation = ({open,han}) => {
+    const isSmallScreen = useMediaQuery("(max-width:1080)");
+    const 
   return (
     <div>
       <Drawer open ={true} anchor="left">
