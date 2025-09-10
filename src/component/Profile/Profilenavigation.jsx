@@ -1,5 +1,7 @@
 import React from 'react'
-cos
+const menu =[
+    {title:"Order History",icon</>},
+]
 const Profilenavigation = () => {
   return (
     <div>
