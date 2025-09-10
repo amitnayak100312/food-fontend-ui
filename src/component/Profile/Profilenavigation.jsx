@@ -6,12 +6,14 @@ import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import EventIcon from '@mui/icons-material/Event';
 import LogoutIcon from '@mui/icons-material/Logout';
+import AddReactionIcon from '@mui/icons-material/AddReaction';
 
 const menu =[
     {title:"Order History",icon:<ShoppingBagIcon/>},
     {title:"Favorites",icon:<FavoriteIcon/>},
+    {title:"Add Reaction",icon:<AddReactionIcon/>},
     {title:"Home",icon:<HomeIcon/>},
-    {title:"Wallet",icon:<AccountBalanceWalletIcon/>},
+    {title:"Payment",icon:<AccountBalanceWalletIcon/>},
     {title:"Notifications",icon:<NotificationsIcon/>},
     {title:"Events",icon:<EventIcon/>},
     {title:"Logout",icon:<LogoutIcon/>},
