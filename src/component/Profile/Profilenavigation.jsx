@@ -21,7 +21,16 @@ const menu =[
 const Profilenavigation = () => {
   return (
     <div>
-      <h2>Profile Navigation</h2>
+      <Drawer open ={true} anchor="left">
+        <List>
+          {menu.map((item) => (
+            <ListItem button key={item.title}>
+              <ListItemIcon>{item.icon}</ListItemIcon>
+              <ListItemText primary={item.title} />
+            </ListItem>
+          ))}
+        </List>
+      </Drawer>
     </div>
   )
 }
