@@ -7,6 +7,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import EventIcon from '@mui/icons-material/Event';
 import LogoutIcon from '@mui/icons-material/Logout';
 import AddReaction from '@mui/icons-material/AddReaction';
+import { useMediaQuery } from '@mui/material';
 
 const menu =[
     {title:"Order History",icon:<ShoppingBagIcon/>},
@@ -19,17 +20,11 @@ const menu =[
     {title:"Logout",icon:<LogoutIcon/>},
 ]
 const Profilenavigation = () => {
+    const isSmallScreen = useMediaQuery("(max-width:600px)");
   return (
     <div>
       <Drawer open ={true} anchor="left">
-        <List>
-          {menu.map((item) => (
-            <ListItem button key={item.title}>
-              <ListItemIcon>{item.icon}</ListItemIcon>
-              <ListItemText primary={item.title} />
-            </ListItem>
-          ))}
-        </List>
+     
       </Drawer>
     </div>
   )
