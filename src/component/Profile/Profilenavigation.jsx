@@ -24,7 +24,11 @@ const Profilenavigation = ({open,handleClose}) => {
     const 
   return (
     <div>
-      <Drawer variant={isSmallScreen ? "temporary" : "permanent"} onClose={handleClose} open ={open} anchor="left">
+      <Drawer variant={isSmallScreen ? "temporary" : "permanent"} 
+      onClose={handleClose} 
+      open ={open} 
+      anchor="left"
+      sx={{zIndex:1}}>
 
       </Drawer>
     </div>
