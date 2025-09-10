@@ -5,6 +5,7 @@ const Profile = () => {
     <div>
       <div className='lg:flex justify-between'>
         <div className='lg:flex justify-between'>
+            <div className='sticky h-[80vh] lg:w-['> </div>
 
         </div>
       </div>
