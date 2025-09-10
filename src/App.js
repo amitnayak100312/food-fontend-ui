@@ -17,7 +17,9 @@ function App() {
         {/* <Home />
         <RestaurantDetail /> */}
         
-        <Cart/>
+        {/* <Cart/>
+         */}
+         <
 
       </ThemeProvider>
     </>
