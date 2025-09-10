@@ -44,7 +44,7 @@ const Cart = () => {
     const handleClose = () => setOpen(false);
 
     const handleSubmit = (value) => {
-        console.log("")
+        console.log("Form data", value);
     }
 
     return (
