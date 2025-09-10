@@ -6,9 +6,15 @@ import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import EventIcon from '@mui/icons-material/Event';
 import LogoutIcon from '@mui/icons-material/Logout';
+
 const menu =[
     {title:"Order History",icon:<ShoppingBagIcon/>},
     {title:"Favorites",icon:<FavoriteIcon/>},
+    {title:"Home",icon:<HomeIcon/>},
+    {title:"Wallet",icon:<AccountBalanceWalletIcon/>},
+    {title:"Notifications",icon:<NotificationsIcon/>},
+    {title:"Events",icon:<EventIcon/>},
+    {title:"Logout",icon:<LogoutIcon/>},
 ]
 const Profilenavigation = () => {
   return (
