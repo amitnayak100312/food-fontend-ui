@@ -9,7 +9,7 @@ const Profile = () => {
                         <Profilenavigation />
                     </div>
                     <div className='lg:w-[80%]'>
-
+                    
 
                     </div>
 
