@@ -8,9 +8,9 @@ const Profile = () => {
                     <div className='sticky h-[80vh] lg:w-[20%]'>
                         <Profilenavigation />
                     </div>
-                    <div>
+                    <div className='lg:w-[80%]'>
 
-                        
+
                     </div>
 
                 </div>
