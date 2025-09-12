@@ -20,7 +20,7 @@ const menu =[
     {title:"Logout",icon:<LogoutIcon/>},
 ]
 const Profilenavigation = ({open,handleClose}) => {
-    const isSmallScreen = useMediaQuery('(min-width:900px)');
+    const isSmallScreen = useMediaQuery('(max-width:1080px)');
 
   return (
     <div>
