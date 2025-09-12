@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Profilenavigation from './Profilenavigation'
+import { Route } from 'react-router-dom';
 const Profile = () => {
     const [openSideBar,setOpenSideBar] = useState(false);
     return (
@@ -10,7 +11,9 @@ const Profile = () => {
                         <Profilenavigation open={openSideBar} />
                     </div>
                     <div className='lg:w-[80%]'>
-                    
+                    <Routes>
+                        <Route path="/" element={<>/>} />
+                    </Routes>
 
                     </div>
 
