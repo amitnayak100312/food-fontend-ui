@@ -1,12 +1,13 @@
 import React from 'react'
 import Profilenavigation from './Profilenavigation'
 const Profile = () => {
+    const [openSideb]
     return (
         <div>
             <div className='lg:flex justify-between'>
                 <div className='lg:flex justify-between'>
                     <div className='sticky h-[80vh] lg:w-[20%]'>
-                        <Profilenavigation />
+                        <Profilenavigation open{}/>
                     </div>
                     <div className='lg:w-[80%]'>
                     
