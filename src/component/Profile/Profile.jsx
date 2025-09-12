@@ -21,7 +21,7 @@ const Profile = () => {
                         <Route path='/order history' element={<Orders />} />
                         <Route path='/favorites' element={<Favorite />} />
                         <Route path='/address' element={<Address />} />
-                        <Route path='/home' element={<Home />} />
+                        <Route path='/home' element={< />} />
                         <Route path='/payment' element={<Payment />} />
                         <Route path='/notifications' element={<Notifications />} />
                         <Route path='/events' element={<Events />} />
