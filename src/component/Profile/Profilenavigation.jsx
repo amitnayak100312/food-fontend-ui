@@ -7,7 +7,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import EventIcon from '@mui/icons-material/Event';
 import LogoutIcon from '@mui/icons-material/Logout';
 import AddReaction from '@mui/icons-material/AddReaction';
-import { useMediaQuery } from '@mui/material';
+import { useMediaQuery,Drawer, Divider } from '@mui/material';
 
 const menu =[
     {title:"Order History",icon:<ShoppingBagIcon/>},
@@ -21,7 +21,7 @@ const menu =[
 ]
 const Profilenavigation = ({open,handleClose}) => {
     const isSmallScreen = useMediaQuery("(max-width:1080)");
-    const 
+
   return (
     <div>
       <Drawer variant={isSmallScreen ? "temporary" : "permanent"} 
@@ -29,6 +29,17 @@ const Profilenavigation = ({open,handleClose}) => {
       open ={open} 
       anchor="left"
       sx={{zIndex:1}}>
+
+        <div className='w-[50vw] lg:w-[20vw] 
+        h-[100vh] flex flex-col justify-center text-xl gap-8 pt-16'> 
+            {menu.map((item,i)=><>
+            <div className='px-5 flex items-center space-x-5 cursor-pointer'>
+              {item.icon}
+              <span>{item.title}</span>
+            </div>
+            {i!== menu.length-1 && <Divider />}
+            </>)}
+        </div>
 
       </Drawer>
     </div>
