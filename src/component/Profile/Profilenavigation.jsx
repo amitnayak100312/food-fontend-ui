@@ -9,6 +9,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 import AddReaction from '@mui/icons-material/AddReaction';
 import { useMediaQuery,Drawer, Divider } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+
 const menu =[
     {title:"Order History",icon:<ShoppingBagIcon/>},
     {title:"Favorites",icon:<FavoriteIcon/>},
@@ -22,23 +23,23 @@ const menu =[
 const Profilenavigation = ({open,handleClose}) => {
     const isSmallScreen = useMediaQuery('(max-width:1080px)');
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const handleNavigate=(item)=>{
-      navigate(`/my-profile/${item.title.toLowerCase()}`)
-    }
+    // const handleNavigate=(item)=>{
+    //   navigate(`/my-profile/${item.title.toLowerCase()}`)
+    // }
   return (
     <div>
       <Drawer variant={isSmallScreen ? "temporary" : "permanent"} 
       onClose={handleClose} 
       open ={isSmallScreen ? open : true} 
       anchor="left"
-      sx={{zIndex:1 ,position:'sticky' }}>
+      sx={{zIndex:-1 ,position:'sticky' }}>
 
         <div className='w-[50vw] lg:w-[20vw] 
         h-[100vh] flex flex-col justify-center text-xl gap-8 pt-20'> 
             {menu.map((item,i)=><>
-            <div onClick={() => handleNavigate(item)}  className='px-5 flex items-center space-x-5 cursor-pointer'>
+            <div   className='px-5 flex items-center space-x-5 cursor-pointer'>
               {item.icon}
               <span>{item.title}</span>
             </div>
