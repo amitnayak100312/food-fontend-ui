@@ -20,7 +20,7 @@ const menu =[
     {title:"Logout",icon:<LogoutIcon/>},
 ]
 const Profilenavigation = ({open,handleClose}) => {
-    const isSmallScreen = useMediaQuery("(max-width:1080)");
+    const isSmallScreen = useMediaQuery('(min-width:1080px)');
 
   return (
     <div>
@@ -28,7 +28,7 @@ const Profilenavigation = ({open,handleClose}) => {
       onClose={handleClose} 
       open ={open} 
       anchor="left"
-      sx={{zIndex:1}}>
+      sx={{zIndex:-1}}>
 
         <div className='w-[50vw] lg:w-[20vw] 
         h-[100vh] flex flex-col justify-center text-xl gap-8 pt-16'> 
