@@ -4,7 +4,14 @@ import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import UserProfile from './UserProfile';
 import { Favorite } from '@mui/icons-material';
-
+import Orders from './Orders';
+import Favorite from './Favorite';
+import Address from './Address';
+import Home from './Home';
+import Payment from './Payment';
+import Notifications from './Notifications';
+import Events from './Events';
+import Logout from './Logout';
 
 const Profile = () => {
     const [openSideBar,setOpenSideBar] = useState(false);
