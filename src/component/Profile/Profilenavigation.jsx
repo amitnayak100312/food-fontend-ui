@@ -26,7 +26,7 @@ const Profilenavigation = ({open,handleClose}) => {
     <div>
       <Drawer variant={isSmallScreen ? "temporary" : "permanent"} 
       onClose={handleClose} 
-      open ={isSmallScreen ? open : "permanent"} 
+      open ={isSmallScreen ? open : true} 
       anchor="left"
       sx={{zIndex:1}}>
 
