@@ -12,7 +12,7 @@ const Profile = () => {
                     </div>
                     <div className='lg:w-[80%]'>
                     <Routes>
-                        <Route path="/" element={<>/>} />
+                        <Route path="/" element={<UserProfile />} />
                     </Routes>
 
                     </div>
