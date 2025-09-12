@@ -7,7 +7,7 @@ import "./Navbar.css"
 export const Navbar = () => {
     return (
         // The main container with a pink background, flex layout, and padding
-        <Box sx={{ zIndex: 1 }} className='px-5 sticky top-0 z-50 py-[.8rem] bg-[#d10f50] lg:px-20 flex justify-between items-center'>
+        <Box  className='px-5 sticky top-0 z-50 py-[.8rem] bg-[#d10f50] lg:px-20 flex justify-between items-center'>
             <div className='lg:mr-10 cursor-pointer flex items-center space-x-4'>
          
                 <li  className='logo font-semibold text-white text-2xl'>
