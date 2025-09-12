@@ -24,7 +24,9 @@ const Profilenavigation = ({open,handleClose}) => {
 
     const navigate = useNavigate();
 
-    co
+    const handleNavigate=(item)=>{
+      navigate(`/my-profile/`)
+    }
   return (
     <div>
       <Drawer variant={isSmallScreen ? "temporary" : "permanent"} 
