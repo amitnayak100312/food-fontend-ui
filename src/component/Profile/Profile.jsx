@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Profilenavigation from './Profilenavigation'
 const Profile = () => {
-    const [openSideb]
+    const [openSideBar,setOpenSideBar] = useState(false);
     return (
         <div>
             <div className='lg:flex justify-between'>
                 <div className='lg:flex justify-between'>
                     <div className='sticky h-[80vh] lg:w-[20%]'>
-                        <Profilenavigation open{}/>
+                        <Profilenavigation open={openSideBar} />
                     </div>
                     <div className='lg:w-[80%]'>
                     
