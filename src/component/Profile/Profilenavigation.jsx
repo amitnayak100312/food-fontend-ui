@@ -8,7 +8,7 @@ import EventIcon from '@mui/icons-material/Event';
 import LogoutIcon from '@mui/icons-material/Logout';
 import AddReaction from '@mui/icons-material/AddReaction';
 import { useMediaQuery,Drawer, Divider } from '@mui/material';
-
+import { useNavigate } from 'react-router-dom';
 const menu =[
     {title:"Order History",icon:<ShoppingBagIcon/>},
     {title:"Favorites",icon:<FavoriteIcon/>},
@@ -33,7 +33,7 @@ const Profilenavigation = ({open,handleClose}) => {
       onClose={handleClose} 
       open ={isSmallScreen ? open : true} 
       anchor="left"
-      sx={{zIndex:1}}>
+      sx={{zIndex:1 ,position:'sticky' }}>
 
         <div className='w-[50vw] lg:w-[20vw] 
         h-[100vh] flex flex-col justify-center text-xl gap-8 pt-16'> 
