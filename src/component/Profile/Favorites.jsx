@@ -4,7 +4,7 @@ import RestaurantCard from '../Restaurant/RestaurantCard'
 const Favorites = () => {
   return (
     <div className=''>
-      <h1 className='py-5 text-xl font-semibold text-center'>
+      <h1 className='text-2xl py-5 font-semibold text-center'>
         My Favorites
       </h1>
 
