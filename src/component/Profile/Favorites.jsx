@@ -1,4 +1,5 @@
 import React from 'react'
+import RestaurantCard from '../Restaurant/RestaurantCard'
 
 const Favorites = () => {
   return (
@@ -7,10 +8,10 @@ const Favorites = () => {
         My Favorites
       </h1>
 
-      <div className='flex flex-wrap justifiy-center'>
+      <div className='flex flex-wrap justifiy-center gap-4' >
 
         {
-          [1,1,1].map(item)
+          [1,1,1].map((item)=><RestaurantCard/>)
         }
       </div>
     </div>
