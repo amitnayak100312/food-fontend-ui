@@ -7,7 +7,7 @@ const EventCard = () => {
         <div>
             <Card sx={{ width: 345 }}>
                 <CardMedia
-                    sx={{ height: 350 }}
+                    sx={{ height: 345 }}
                     image='https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg' />
                 <CardContent>
                     <Typography variant="h5">
@@ -25,7 +25,7 @@ const EventCard = () => {
                     </div>
                 </CardContent>
 
-                {
+                {true && 
                     <CardActions>
                     <CardContent>
                         <DeleteIcon />
