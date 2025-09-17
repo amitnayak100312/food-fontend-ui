@@ -7,8 +7,11 @@ const Favorites = () => {
         My Favorites
       </h1>
 
-      <div className='flex flex-wrap ju'>
+      <div className='flex flex-wrap justifiy-center'>
 
+        {
+          [1,1,1].map(item)
+        }
       </div>
     </div>
   )
