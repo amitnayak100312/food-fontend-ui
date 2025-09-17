@@ -6,7 +6,7 @@ import UserProfile from './UserProfile';
 import { Favorite } from '@mui/icons-material';
 import Orders from './Orders';
 import Favorites from './Favorites';
-// import Address from './Address';
+import Address from './Address';
 // import Home from './Home';
 import Payment from './Payment';
 import Notifications from './Notifications';
@@ -27,7 +27,7 @@ const Profile = () => {
                         <Route path="/" element={<UserProfile />} />
                         <Route path='/order history' element={<Orders />} />
                         <Route path='/favorites' element={<Favorites />} />
-                        {/* <Route path='/address' element={<Address />} /> */}
+                        <Route path='/address' element={<Address />} />
                         {/* <Route path='/home' element={<Home />} /> */}
                         <Route path='/payment' element={<Payment />} />
                         <Route path='/notifications' element={<Notifications />} />
