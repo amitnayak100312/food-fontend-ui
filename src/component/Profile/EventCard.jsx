@@ -12,6 +12,10 @@ const EventCard = () => {
         <Typography variant="h5">
             Indian Fast Food
         </Typography>
+
+         <Typography variant="">
+            Indian Fast Food
+        </Typography>
       </CardContent>
       </Card>
     </div>
