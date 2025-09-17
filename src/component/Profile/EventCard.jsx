@@ -18,7 +18,8 @@ const EventCard = () => {
         </Typography>
 
         <div className='py-2 space-y-2'>
-            <p>{""}</p>
+            <p>{"mumbai"}</p>
+            <p></p>
         </div>
       </CardContent>
       </Card>
