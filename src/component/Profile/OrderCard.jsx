@@ -1,9 +1,9 @@
 import React from 'react'
-import Cart from '../Cart/Cart'
+import { Button } from '@mui/material'
 
 const OrderCard = () => {
   return (
-    <Cart className="flex justify-between items-center p-5">
+    <Card  className="flex justify-between items-center p-5">
         <div className='flex items-center space-x-5'>
         <img 
         className='h-16 w-16 rounded-s-xl'
@@ -19,7 +19,7 @@ const OrderCard = () => {
         <div>
             <Button className="cursor-not-allowed">Completed</Button>
         </div>
-    </Cart>
+    </>
   )
 }
 
