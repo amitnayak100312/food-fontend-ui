@@ -19,7 +19,7 @@ const EventCard = () => {
 
         <div className='py-2 space-y-2'>
             <p>{"mumbai"}</p>
-            <p></p>
+            <p className='te'> February 14,2024 12:00 AM</p>
         </div>
       </CardContent>
       </Card>
