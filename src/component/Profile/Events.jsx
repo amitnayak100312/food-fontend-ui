@@ -1,9 +1,10 @@
 import React from 'react'
+import EventCard from './EventCard'
 
 const Event = () => {
   return (
     <div className='mt-3 px-5 flex flex-wrap gap-5'>
-      {[1,1,1].map((item)=><Event/)}
+      {[1,1,1].map((item)=><EventCard/>)}
         
     </div>
   )
