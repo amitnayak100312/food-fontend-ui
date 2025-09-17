@@ -5,6 +5,7 @@ import RestaurantDetailPage from '../Restaurant/RestaurantDetail';
 import Home from '../Home/Home';
 import { Navbar } from '../Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
+import UserProfile from '../Profile/UserProfile';
 
 
 export const CustomerRoute = () => {
@@ -12,7 +13,7 @@ export const CustomerRoute = () => {
     <div>
         <Navbar />
         <Routes>
-            <Route path='/' element={<Home/>}/>
+            <Route path='/' element={<UserProfile />} />
             <Route path='/account/:register' element={<Home/>}/>
             <Route path='/restaurant/:city/:title/id' element={<RestaurantDetailPage/>}/>
             <Route path='/cart' element={<Cart/>}/>

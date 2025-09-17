@@ -16,8 +16,7 @@ import Logout from './Logout';
 const Profile = () => {
     const [openSideBar,setOpenSideBar] = useState(false);
     return (
-        <div>
-            <div className='lg:flex justify-between'>
+
                 <div className='lg:flex justify-between'>
                     <div className='sticky h-[80vh] lg:w-[20%]'>
                         <Profilenavigation open={openSideBar} />
@@ -39,7 +38,6 @@ const Profile = () => {
 
                 </div>
             </div>
-        </div>
     )
 }
 
