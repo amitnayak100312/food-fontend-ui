@@ -1,4 +1,5 @@
 import { Card, CardContent, CardMedia, Typography } from '@mui/material'
+import DeleteIcon from '@mui/icons-material/Delete';
 import React from 'react'
 
 const EventCard = () => {
@@ -25,7 +26,7 @@ const EventCard = () => {
       </CardContent>
 
       <CardContent>
-        <
+        DeleteIcon
       </CardContent>
       </Card>
     </div>
