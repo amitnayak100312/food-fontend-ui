@@ -16,7 +16,7 @@ import Logout from './Logout';
 const Profile = () => {
     const [openSideBar,setOpenSideBar] = useState(false);
     return (
-
+        <div className='p-5 lg:p-10'>
                 <div className='lg:flex justify-between'>
                     <div className='sticky h-[80vh] lg:w-[20%]'>
                         <Profilenavigation open={openSideBar} />
