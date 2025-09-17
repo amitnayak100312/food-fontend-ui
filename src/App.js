@@ -7,6 +7,7 @@ import Home from './component/Home/Home';
 import RestaurantDetail from './component/Restaurant/RestaurantDetail';
 import Cart from './component/Cart/Cart';
 import Profile from './component/Profile/Profile';
+import { CustomerRoute } from './component/Routers/CustomerRoute';
 function App() {
   return (
     <>
@@ -14,14 +15,13 @@ function App() {
 
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
-        <Navbar />
+        {/* <Navbar /> */}
         {/* <Home />
         <RestaurantDetail /> */}
-        
         {/* <Cart/>
          */}
-         <Profile/>
-
+         {/* <Profile/> */}
+          <CustomerRoute />
       </ThemeProvider>
     </>
   );
