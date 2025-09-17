@@ -13,8 +13,8 @@ const EventCard = () => {
             Indian Fast Food
         </Typography>
 
-         <Typography variant="">
-            Indian Fast Food
+         <Typography variant="body2">
+            50% off on your first order
         </Typography>
       </CardContent>
       </Card>
