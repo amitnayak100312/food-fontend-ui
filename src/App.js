@@ -11,8 +11,6 @@ import { CustomerRoute } from './component/Routers/CustomerRoute';
 function App() {
   return (
     <>
-
-
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
          {/* <Home /> */}
