@@ -34,10 +34,11 @@ const Profilenavigation = ({ open, handleClose }) => {
         onClose={handleClose}
         open={isSmallScreen ? open : true}
         anchor="left"
-        sx={{ zIndex: -1, position: 'sticky' }}>
+        sx={{ zIndex: 1, position: 'sticky' }}>
 
         <div className='w-[50vw] lg:w-[20vw] 
-        h-[100vh] flex flex-col justify-center text-xl gap-8 pt-16'>
+        h-[100vh] flex flex-col 
+        justify-center text-xl pt-16 gap-8'>
           {menu.map((item, i) => <>
             <div onClick={() => handleNavigate(item)}
              className='px-5 flex items-center space-x-5 cursor-pointer'>

@@ -1,6 +1,5 @@
 import React from 'react';
 import SearchIcon from '@mui/icons-material/Search';
-import { Routes, Route } from 'react-router-dom';
 import { IconButton,Avatar,Badge, Box } from '@mui/material';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import "./Navbar.css"
@@ -23,9 +22,9 @@ export const Navbar = () => {
                 </div>
 
                 <div className=''>
-                    <Routes>
-                        <Route path='/my-profile' element={<Avatar sx={{ bgcolor: 'white', color: '#d10f50' }}>P</Avatar>} />
-                    </Routes>
+                   <Avatar sx={{ bgcolor: 'white', color: '#d10f50' }}>
+                        P
+                   </Avatar>
                  </div>
 
                 <div className=''>
