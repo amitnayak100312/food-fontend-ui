@@ -21,7 +21,7 @@ const menu = [
   { title: "Logout", icon: <LogoutIcon /> },
 ]
 const Profilenavigation = ({ open, handleClose }) => {
-  const isSmallScreen = useMediaQuery('(max-width:1080px)');
+  const isSmallScreen = useMediaQuery('(max-width:900px)');
 
   const navigate = useNavigate();
 
@@ -30,7 +30,8 @@ const Profilenavigation = ({ open, handleClose }) => {
   }
   return (
     <div>
-      <Drawer variant={isSmallScreen ? "temporary" : "permanent"}
+      <Drawer 
+        variant={isSmallScreen ? "temporary" : "permanent"}
         onClose={handleClose}
         open={isSmallScreen ? open : true}
         anchor="left"
