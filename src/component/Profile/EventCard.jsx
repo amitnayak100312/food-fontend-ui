@@ -5,9 +5,9 @@ import React from 'react'
 const EventCard = () => {
     return (
         <div>
-            <Card sx={{ width: 345 }}>
+            <Card sx={{ width: 245 }}>
                 <CardMedia
-                    sx={{ height: 345 }}
+                    sx={{ height: 245 }}
                     image='https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg' />
                 <CardContent>
                     <Typography variant="h5">
@@ -25,7 +25,7 @@ const EventCard = () => {
                     </div>
                 </CardContent>
 
-                {true && 
+                {F && 
                     <CardActions>
                     <CardContent>
                         <DeleteIcon />
