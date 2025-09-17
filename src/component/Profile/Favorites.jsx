@@ -8,7 +8,7 @@ const Favorites = () => {
         My Favorites
       </h1>
 
-      <div className='flex flex-wrap justifiy-center gap-4' >
+      <div className='flex flex-wrap justifiy-center gap-5' >
 
         {
           [1,1,1].map((item)=><RestaurantCard/>)
