@@ -16,6 +16,10 @@ const EventCard = () => {
          <Typography variant="body2">
             50% off on your first order
         </Typography>
+
+        <div className='py-2 space-y-2'>
+            <p>{""}</p>
+        </div>
       </CardContent>
       </Card>
     </div>
