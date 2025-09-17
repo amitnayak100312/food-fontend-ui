@@ -25,7 +25,7 @@ const EventCard = () => {
                     </div>
                 </CardContent>
 
-                {F && 
+                {false && 
                     <CardActions>
                     <CardContent>
                         <DeleteIcon />
