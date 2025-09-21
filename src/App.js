@@ -13,12 +13,12 @@ function App() {
     <>
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
+         {/* <Navbar /> */}
          {/* <Home /> */}
-        {/*
-        <RestaurantDetail /> */}
-        {/* <Navbar /> */}
-        {/* <Cart/>
-         */}
+        
+        {/* <RestaurantDetail />  */}
+         {/* <Cart/> */}
+         
          {/* <Profile/> */}
           <CustomerRoute />
       </ThemeProvider>
