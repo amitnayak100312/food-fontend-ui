@@ -13,8 +13,8 @@ export const CustomerRoute = () => {
     <div>
         <Navbar />
         <Routes>
-            <Route path='/' element={<UserProfile />} />
-            <Route path='/account/:register' element={<Home/>}/>
+            <Route path='/' element={<Home />} />
+            <Route path='/account/:register' element={<Profile />}/>
             <Route path='/restaurant/:city/:title/id' element={<RestaurantDetailPage/>}/>
             <Route path='/cart' element={<Cart/>}/>
             <Route path='/my-profile/*' element={<Profile/>}/>
